@@ -1,0 +1,16 @@
+[submodule "IoT-starter"]
+	path = IoT-starter
+	url = git@github.ibm.com:Bluemix-Docs/IoT-starter.git
+	branch = staging
+[submodule "IoTElectronics-starter"]
+	path = IoTElectronics-starter
+	url = git@github.ibm.com:Bluemix-Docs/IoTElectronics-starter.git
+	branch = staging
+[submodule "LoopBack"]
+	path = LoopBack
+	url = git@github.ibm.com:Bluemix-Docs/LoopBack.git
+	branch = staging
+[submodule "Node-RED"]
+	path = Node-RED
+	url = git@github.ibm.com:Bluemix-Docs/Node-RED.git
+	branch = staging
