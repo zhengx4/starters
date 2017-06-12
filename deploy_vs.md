@@ -4,9 +4,9 @@
 
 copyright:
 
-  years: 2015, 2017
+  years: 2015，2017
 
-lastupdated: "2017-01-10"
+lastupdated: "2016-06-25"
 
 
 
@@ -17,11 +17,9 @@ lastupdated: "2017-01-10"
 
 # Developing with Visual Studio
 
-
-  1. If you don't already have Visual Studio, install Visual Studio 2015 or Visual Studio Code by following the instructions [here](https://msdn.microsoft.com/en-us/library/e2h7fzkw.aspx){: new_window}.
+  1. If you don't already have Visual Studio, install Visual Studio 2015 or Visual Studio Code by following the instructions [here ![External link icon](../icons/launch-glyph.svg)](https://msdn.microsoft.com/en-us/library/e2h7fzkw.aspx){: new_window}.
 
   1. {: download} Download your starter code and extract it into a folder on your hard drive.
-     <a class="xref" href="http://bluemix.net" target="_blank" title="(Opens in a new tab or window)"><img class="image" src="images/btn_starter-code.svg" alt="Download Starter Code" /> </a>
 
   1. Open the project in Visual Studio
 
@@ -30,4 +28,4 @@ lastupdated: "2017-01-10"
 
   1. Once you've modified your code you can redeploy it using the CF or Bluemix CLI tools
 
-For step-by-step directions in deploying apps, see [Deploying apps with CF CLI ![External link icon](../icons/launch-glyph.svg "External link icon")](/docs/starters/install_cli.html){: new_window}.
+For step-by-step directions in deploying apps, see [Deploying apps with CF CLI ![External link icon](../icons/launch-glyph.svg)](./install_cli.html){: new_window}.

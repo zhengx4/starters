@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2016-12-20"
+lastupdated: "2017-04-19"
 
 
 
@@ -16,8 +16,6 @@ lastupdated: "2016-12-20"
 {:shortdesc: .shortdesc}
 
 # Uploading your application
-Last updated: 17 February 2016
-{: .last-updated}
 
 After you are logged in to {{site.data.keyword.Bluemix}}, you can upload your application with the `bluemix app push` command.
 {:shortdesc}
@@ -25,7 +23,7 @@ After you are logged in to {{site.data.keyword.Bluemix}}, you can upload your ap
 Before you begin, you must:
   1. Install the {{site.data.keyword.Bluemix}} command line interface.
 
-  <a class="xref" href="http://clis.stage1.ng.bluemix.net/ui/home.html" target="_blank" title="(Opens in a new tab or window)"><img class="image" src="images/btn_bx_commandline.svg" alt="Download {{site.data.keyword.Bluemix}} command line interface" /> </a>
+  <a class="xref" href="http://clis.ng.bluemix.net/ui/home.html" target="_blank" title="(Opens in a new tab or window)"><img class="image" src="images/btn_bx_commandline.svg" alt="Download {{site.data.keyword.Bluemix}} command line interface" /> </a>
 
   2. Connect to {{site.data.keyword.Bluemix}}.
 
