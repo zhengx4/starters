@@ -10,7 +10,3 @@
 	path = LoopBack
 	url = git@github.ibm.com:Bluemix-Docs/LoopBack.git
 	branch = master
-[submodule "Node-RED"]
-	path = Node-RED
-	url = git@github.ibm.com:Bluemix-Docs/Node-RED.git
-	branch = master
