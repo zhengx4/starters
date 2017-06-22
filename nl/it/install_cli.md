@@ -54,7 +54,7 @@ Dopo aver installato l'interfaccia riga di comando, puoi iniziare:
 
   3.  Apporta le modifiche al codice della tua applicazione, adattandolo. Ad esempio, se stai utilizzando un'applicazione di esempio {{site.data.keyword.Bluemix}} che contiene il file `src/main/webapp/index.html`, puoi modificarlo con "Thanks for creating ..." per fare qualcosa di nuovo. Assicurati che l'applicazione sia in esecuzione localmente prima di distribuirla a {{site.data.keyword.Bluemix_notm}}.
 
-    Prendi nota del file `manifest.yml`. Quando ridistribuisci la tua applicazione a {{site.data.keyword.Bluemix_notm}}, questo file viene utilizzato per determinare l'URL, l'allocazione di memoria, il numero di istanze e altri parametri fondamentali della tua applicazione. Per [ulteriori informazioni sul file manifest](https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html){: new_window}, consulta la documentazione Cloud Foundry.
+    Prendi nota del file `manifest.yml`. Quando ridistribuisci la tua applicazione a {{site.data.keyword.Bluemix_notm}}, questo file viene utilizzato per determinare l'URL, l'allocazione di memoria, il numero di istanze e altri parametri fondamentali della tua applicazione. Per [ulteriori informazioni sul file manifest](https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html){: new_window}, vedi la documentazione Cloud Foundry.
 
     Presta inoltre attenzione al file `README.md`, che contiene dettagli come le istruzioni di creazione se applicabili.
 
