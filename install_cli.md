@@ -27,6 +27,7 @@ lastupdated: "2017-04-19"
 {:service_name: data-hd-keyref="service_name"}
 {:service_instance_name: data-hd-keyref="service_instance_name"}
 {:user_ID: data-hd-keyref="user_ID"}
+{:tip: .tip}
 
 # Download, modify, and redeploy your Cloud Foundry app with the command line interface
 
