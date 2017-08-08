@@ -31,4 +31,4 @@ lastupdated: "2017-01-12"
     <a class="xref" href="http://bluemix.net" target="_blank" title="(新規タブまたはウィンドウで開きます)"><img class="image" src="images/btn_starter-code.svg" alt="スターター・コードのダウンロード" /> </a>
   
 
-アプリのデプロイに関するステップごとの詳しい手順の説明については、IBM Eclipse Tools for [{{site.data.keyword.Bluemix_notm}} を使用してのアプリのデプロイ ![「外部リンク」アイコン](../icons/launch-glyph.svg)](/docs/manageapps/eclipsetools/eclipsetools.html#eclipsetools){: new_window} を参照してください。
+アプリのデプロイのステップバイステップ指示については、[IBM Eclipse Tools for {{site.data.keyword.Bluemix_notm}} を使用したアプリのデプロイ (Deploying apps with IBM Eclipse Tools for Bluemix)![外部リンク・アイコン](../icons/launch-glyph.svg)](/docs/manageapps/eclipsetools/eclipsetools.html#eclipsetools){: new_window} を参照してください。

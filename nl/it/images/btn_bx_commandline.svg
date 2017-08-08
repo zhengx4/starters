@@ -4,7 +4,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="355.4px" height="48px" viewBox="0 0 355.4 48" enable-background="new 0 0 355.4 48" xml:space="preserve">
 <rect x="149" y="-12" fill="#5596E6" width="355.4" height="48"/>
-<text transform="matrix(1 0 0 1 177.2871 11.0947)" enable-background="new    "><tspan x="0" y="0" fill="#FFFFFF" font-family="'ArialMT'" font-size="14">Scaricamento dell&apos;interfaccia riga</tspan><tspan x="0" y="16.8" fill="#FFFFFF" font-family="'ArialMT'" font-size="14">di comando (CLI) Bluemix</tspan></text>
+<text transform="matrix(1 0 0 1 165.2871 17.0947)" fill="#FFFFFF" font-family="'ArialMT'" font-size="13">Scarica CLI (Command Line Interface) Bluemix</text>
 <g>
 	<polygon fill="#FFFFFF" points="484.4,7.3 483.2,6.2 478.2,11.2 478.2,-2.1 476.6,-2.1 476.6,11.2 471.6,6.2 470.4,7.3 477.4,14.3 
 			"/>
