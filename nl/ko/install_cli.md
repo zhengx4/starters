@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2017
 
-lastupdated: "2017-04-19"
+lastupdated: "2017-06-31"
 
 
 ---
@@ -27,6 +27,7 @@ lastupdated: "2017-04-19"
 {:service_name: data-hd-keyref="service_name"}
 {:service_instance_name: data-hd-keyref="service_instance_name"}
 {:user_ID: data-hd-keyref="user_ID"}
+{:tip: .tip}
 
 # 명령행 인터페이스를 사용하여 Cloud Foundry 앱 다운로드, 수정 및 재배치
 
@@ -69,6 +70,8 @@ lastupdated: "2017-04-19"
   연합 ID를 사용 중인 경우 `-sso` 옵션을 사용하십시오. 
 
   <pre class="pre"><code class="hljs">bluemix login  -o <var class="keyword varname" data-hd-keyref="org_name">org_name</var> -s <var class="keyword varname" data-hd-keyref="space_name">space_name</var> -sso</code></pre>
+  
+  **참고**: 값에 간격이 포함되어 있는 경우(예: `-o "my org"`), `username`, `org_name` 및 `space_name` 주위에 작은따옴표 또는 큰따옴표를 추가해야 합니다.
 
   5. <var class="keyword varname">your_new_directory</var>에서 `bluemix app push` 명령을 사용하여 {{site.data.keyword.Bluemix_notm}}에 앱을 재배치하십시오. `bx app push` 명령에 대한 자세한 정보는 [애플리케이션 업로드](/docs/starters/upload_app.html)를 참조하십시오.
 

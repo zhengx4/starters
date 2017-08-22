@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2017
 
-lastupdated: "2017-04-19"
+lastupdated: "2017-06-31"
 
 
 ---
@@ -27,6 +27,7 @@ lastupdated: "2017-04-19"
 {:service_name: data-hd-keyref="service_name"}
 {:service_instance_name: data-hd-keyref="service_instance_name"}
 {:user_ID: data-hd-keyref="user_ID"}
+{:tip: .tip}
 
 # Scarica, modifica e ridistribuisci la tua applicazione Cloud Foundry con l'interfaccia della riga di comando
 
@@ -69,6 +70,8 @@ Dopo aver installato l'interfaccia riga di comando, puoi iniziare:
   Se stai utilizzando un ID federato, usa l'opzione `-sso`.
 
   <pre class="pre"><code class="hljs">bluemix login  -o <var class="keyword varname" data-hd-keyref="org_name">org_name</var> -s <var class="keyword varname" data-hd-keyref="space_name">space_name</var> -sso</code></pre>
+  
+  **Nota**: devi aggiungere singoli o doppi apostrofi intorno a `nomeutente`, `nome_org` e  `nome_spazio` se il valore contiene uno spazio, ad esempio, `-o "my org"`.
 
   5. Da <var class="keyword varname">la_tua_nuova_directory</var>, ridistribuisci la tua applicazione a {{site.data.keyword.Bluemix_notm}} utilizzando il comando `bluemix app push`. Per ulteriori informazioni sul comando `bx app push`, vedi [Caricamento della tua applicazione](/docs/starters/upload_app.html).
 

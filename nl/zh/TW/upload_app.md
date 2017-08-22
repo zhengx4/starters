@@ -50,9 +50,9 @@ lastupdated: "2017-04-19"
 
   <pre class="pre"><code class="hljs">bluemix app push <var class="keyword varname" data-hd-keyref="app_name">app_name</var> -b buildpack_URL</code></pre>
 
-  **提示：**使用 **bluemix app push** 指令時，此指令會將所有檔案及目錄從現行目錄複製到 Bluemix。確定應用程式目錄中只有所需的檔案。
+  **提示：**使用 **bluemix app push** 指令時，這個指令會將所有檔案及目錄從現行目錄複製到 Bluemix。確定應用程式目錄中只有所需的檔案。
 
 
-  2. 如果您變更應用程式，請重新輸入 `bluemix app push` 指令，即可上傳那些變更。此指令會使用您先前的選項以及對提示的回應，以一小段新的程式碼來更新應用程式的所有執行中實例。
+  2. 如果您變更應用程式，請重新輸入 `bluemix app push` 指令，即可上傳那些變更。這個指令會使用您先前的選項以及對提示的回應，以一小段新的程式碼來更新應用程式的所有執行中實例。
 
-{{site.data.keyword.Bluemix}} CLI 已將 cf cli 組合在其安裝中。`bluemix app push` 指令會實際呼叫 `cf push`，以將應用程式上傳及部署至 {{site.data.keyword.Bluemix_notm}}。如需 cf push 的相關資訊，請參閱 [cf 指令](/docs/cli/reference/cfcommands/index.html)。如需建置套件的相關資訊，請參閱[使用社群建置套件](/docs/cfapps/byob.html)。
+{{site.data.keyword.Bluemix}} CLI 已將 cf cli 搭載在其安裝中。`bluemix app push` 指令會實際呼叫 `cf push`，以將應用程式上傳及部署至 {{site.data.keyword.Bluemix_notm}}。如需 cf push 的相關資訊，請參閱 [cf 指令](/docs/cli/reference/cfcommands/index.html)。如需建置套件的相關資訊，請參閱[使用社群建置套件](/docs/cfapps/byob.html)。

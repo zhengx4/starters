@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2017
 
-lastupdated: "2017-04-19"
+lastupdated: "2017-06-31"
 
 
 ---
@@ -27,6 +27,7 @@ lastupdated: "2017-04-19"
 {:service_name: data-hd-keyref="service_name"}
 {:service_instance_name: data-hd-keyref="service_instance_name"}
 {:user_ID: data-hd-keyref="user_ID"}
+{:tip: .tip}
 
 # コマンド・ライン・インターフェースを使用した Cloud Foundry アプリのダウンロード、変更、および再デプロイ
 
@@ -69,6 +70,8 @@ lastupdated: "2017-04-19"
   フェデレーテッド ID を使用する場合は、`-sso` オプションを使用してください。
 
   <pre class="pre"><code class="hljs">bluemix login  -o <var class="keyword varname" data-hd-keyref="org_name">org_name</var> -s <var class="keyword varname" data-hd-keyref="space_name">space_name</var> -sso</code></pre>
+  
+  **注**: `username`、`org_name`、および `space_name` の値にスペースが含まれている場合は、値のまわりに単一引用符または二重引用符を追加する必要があります。例えば、`-o "my org"` のように指定します。
 
   5. `bluemix app push` コマンドを使用して、<var class="keyword varname">your_new_directory</var> からアプリを {{site.data.keyword.Bluemix_notm}} に再デプロイします。`bx app push` コマンドについて詳しくは、『[アプリケーションのアップロード](/docs/starters/upload_app.html)』を参照してください。
 

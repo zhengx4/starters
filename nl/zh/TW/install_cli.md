@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2017
 
-lastupdated: "2017-04-19"
+lastupdated: "2017-06-31"
 
 
 ---
@@ -27,6 +27,7 @@ lastupdated: "2017-04-19"
 {:service_name: data-hd-keyref="service_name"}
 {:service_instance_name: data-hd-keyref="service_instance_name"}
 {:user_ID: data-hd-keyref="user_ID"}
+{:tip: .tip}
 
 # 使用指令行介面下載、修改及重新部署 Cloud Foundry 應用程式
 
@@ -69,6 +70,8 @@ lastupdated: "2017-04-19"
   如果您要使用聯合 ID，請使用 `-sso` 選項。
 
   <pre class="pre"><code class="hljs">bluemix login  -o <var class="keyword varname" data-hd-keyref="org_name">org_name</var> -s <var class="keyword varname" data-hd-keyref="space_name">space_name</var> -sso</code></pre>
+  
+  **附註**：如果值包含空格，您必須在 `username`、`org_name` 和 `space_name` 週圍加上單引號或雙引號，例如 `-o "my org"`。
 
   5. 從 <var class="keyword varname">your_new_directory</var> 中，使用 `bluemix app push` 指令以將應用程式重新部署至 {{site.data.keyword.Bluemix_notm}}。如需 `bx app push` 指令的相關資訊，請參閱[上傳應用程式](/docs/starters/upload_app.html)。
 
