@@ -40,7 +40,7 @@ lastupdated: "2017-06-31"
 <a class="xref" href="https://clis.ng.bluemix.net" target="_blank" title="(新規タブまたはウィンドウで開きます)"><img class="image" src="images/btn_bx_commandline.svg" alt="Bluemix コマンド・ライン・インターフェースのダウンロード" /> </a>
 </p>
 
-**制約事項:** コマンド・ライン・ツールは Cygwin ではサポートされていません。このツールは Cygwin コマンド・ライン・ウィンドウ以外のコマンド・ライン・ウィンドウで使用してください。
+**制約事項:** コマンド・ライン・ツールは Cygwin ではサポートされていません。 このツールは Cygwin コマンド・ライン・ウィンドウ以外のコマンド・ライン・ウィンドウで使用してください。
 {:prereq}
 
 コマンド・ライン・インターフェースをインストールした後、以下の手順を開始できます。
@@ -53,9 +53,9 @@ lastupdated: "2017-06-31"
 
   <pre class="pre"><code class="hljs">cd <var class="keyword varname">your_new_directory</var></code></pre>
 
-  3.  適切なアプリ・コードを変更します。例えば、{{site.data.keyword.Bluemix}} サンプル・アプリケーションを使用していて、アプリに `src/main/webapp/index.html` ファイルが含まれている場合、それを編集して「Thanks for creating ...」を何か別の内容に変更します。アプリを {{site.data.keyword.Bluemix_notm}} に戻してデプロイする前に、ローカルで稼働することを確認してください。
+  3.  適切なアプリ・コードを変更します。 例えば、{{site.data.keyword.Bluemix}} サンプル・アプリケーションを使用していて、アプリに `src/main/webapp/index.html` ファイルが含まれている場合、それを編集して「Thanks for creating ...」を何か別の内容に変更します。 アプリを {{site.data.keyword.Bluemix_notm}} に戻してデプロイする前に、ローカルで稼働することを確認してください。
 
-    `manifest.yml` ファイルをメモします。{{site.data.keyword.Bluemix_notm}} にアプリをデプロイする際、このファイルを使用してアプリケーションの URL、メモリー割り振り、インスタンス数、その他の重要なパラメーターを判別します。Cloud Foundry の資料で[マニフェスト・ファイルの詳細](https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html){: new_window}を参照してください。
+    `manifest.yml` ファイルをメモします。 {{site.data.keyword.Bluemix_notm}} にアプリをデプロイする際、このファイルを使用してアプリケーションの URL、メモリー割り振り、インスタンス数、その他の重要なパラメーターを判別します。 Cloud Foundry の資料で[マニフェスト・ファイルの詳細](https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html){: new_window}を参照してください。
 
     該当する場合にはビルド手順などの詳細が含まれている `README.md` ファイルにも注意を払ってください。
 
@@ -73,7 +73,7 @@ lastupdated: "2017-06-31"
   
   **注**: `username`、`org_name`、および `space_name` の値にスペースが含まれている場合は、値のまわりに単一引用符または二重引用符を追加する必要があります。例えば、`-o "my org"` のように指定します。
 
-  5. `bluemix app push` コマンドを使用して、<var class="keyword varname">your_new_directory</var> からアプリを {{site.data.keyword.Bluemix_notm}} に再デプロイします。`bx app push` コマンドについて詳しくは、『[アプリケーションのアップロード](/docs/starters/upload_app.html)』を参照してください。
+  5. `bluemix app push` コマンドを使用して、<var class="keyword varname">your_new_directory</var> からアプリを {{site.data.keyword.Bluemix_notm}} に再デプロイします。 `bx app push` コマンドについて詳しくは、『[アプリケーションのアップロード](/docs/starters/upload_app.html)』を参照してください。
 
   <pre class="pre"><code class="hljs">bluemix app push <var class="keyword varname" data-hd-keyref="app_name">app_name</var></code></pre>
 

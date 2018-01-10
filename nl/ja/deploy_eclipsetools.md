@@ -29,6 +29,5 @@ lastupdated: "2017-01-12"
   3. {: download} スターター・コードをダウンロードし、**「ファイル」>「既存プロジェクトをワークスペースへインポート」>「アーカイブ・ファイル」**と移動して、そのスターター・コードを Eclipse にインポートします。
 
     <a class="xref" href="http://bluemix.net" target="_blank" title="(新規タブまたはウィンドウで開きます)"><img class="image" src="images/btn_starter-code.svg" alt="スターター・コードのダウンロード" /> </a>
-  
 
 アプリのデプロイのステップバイステップ指示については、[IBM Eclipse Tools for {{site.data.keyword.Bluemix_notm}} を使用したアプリのデプロイ (Deploying apps with IBM Eclipse Tools for Bluemix)![外部リンク・アイコン](../icons/launch-glyph.svg)](/docs/manageapps/eclipsetools/eclipsetools.html#eclipsetools){: new_window} を参照してください。
