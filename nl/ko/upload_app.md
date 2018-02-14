@@ -35,7 +35,7 @@ lastupdated: "2017-04-19"
 
 **bluemix app push** 명령이 실행되면 명령행 인터페이스는 빌드팩을 사용하여 애플리케이션을 빌드하고 실행하는 {{site.data.keyword.Bluemix_notm}} 환경에 작업 디렉토리를 제공합니다.
 
-  1. 애플리케이션 디렉토리에서 애플리케이션 이름을 사용하여 **bluemix app push** 명령을 입력하십시오. 앱 이름은 {{site.data.keyword.Bluemix_notm}} 환경에서 고유해야 합니다. 
+  1. 애플리케이션 디렉토리에서 애플리케이션 이름을 사용하여 **bluemix app push** 명령을 입력하십시오. 앱 이름은 {{site.data.keyword.Bluemix_notm}} 환경에서 고유해야 합니다.
 
   <pre class="pre"><code class="hljs">bluemix app push <var class="keyword varname" data-hd-keyref="app_name">app_name</var> -m 512m</code></pre>
 
@@ -45,7 +45,7 @@ lastupdated: "2017-04-19"
 
   또한 Node.js 애플리케이션에 유효한 package.json 파일이 포함되어야 합니다.
 
-  모든 기타 외부 빌드팩은 -b 옵션을 사용하여 푸시해야 합니다. 예를 들어, 다음과 같습니다. 
+  모든 기타 외부 빌드팩은 -b 옵션을 사용하여 푸시해야 합니다. 예를 들어, 다음과 같습니다.
 
   <pre class="pre"><code class="hljs">bluemix app push <var class="keyword varname" data-hd-keyref="app_name">app_name</var> -b buildpack_URL</code></pre>
 

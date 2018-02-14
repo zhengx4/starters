@@ -28,6 +28,6 @@ lastupdated: "2017-01-12"
 
   3. {: download} 스타터 코드를 다운로드한 다음 **파일>기존 프로젝트를 작업공간으로 가져오기>아카이브 파일**로 이동하여 Eclipse로 가져오십시오.
 
-    <a class="xref" href="http://bluemix.net" target="_blank" title="(새 탭 또는 창에서 열림)"><img class="image" src="images/btn_starter-code.svg" alt="스타터 코드 다운로드" /> </a> 
+    <a class="xref" href="http://bluemix.net" target="_blank" title="(새 탭 또는 창에서 열림)"><img class="image" src="images/btn_starter-code.svg" alt="스타터 코드 다운로드" /> </a>
 
-앱을 배치하기 위한 단계별 지시사항은 [{{site.data.keyword.Bluemix_notm}}용 IBM Eclipse 도구로 앱 배치 ![외부 링크 아이콘](../icons/launch-glyph.svg)](/docs/manageapps/eclipsetools/eclipsetools.html#eclipsetools){: new_window}을 참조하십시오.
+앱을 배치하기 위한 단계별 지시사항은 [{{site.data.keyword.Bluemix_notm}}용 IBM Eclipse 도구로 앱 배치 ![외부 링크 아이콘](../icons/launch-glyph.svg)](/docs/manageapps/eclipsetools/eclipsetools.html#eclipsetools){: new_window}를 참조하십시오.
