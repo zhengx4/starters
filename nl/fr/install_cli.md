@@ -71,9 +71,9 @@ documentation Cloud Foundry.
 
   Si vous vous servez d'un ID fédéré, utilisez l'option `-sso`.
 
-  <pre class="pre"><code class="hljs">bluemix login  -o <var class="keyword varname" data-hd-keyref="org_name">nom_org</var> -s <var class="keyword varname" data-hd-keyref="space_name">nom_espace</var> -sso</code></pre>
+  <pre class="pre"><code class="hljs">bluemix login  -o <var class="keyword varname" data-hd-keyref="org_name">org_name</var> -s <var class="keyword varname" data-hd-keyref="space_name">space_name</var> -sso</code></pre>
   
-  **Remarque **: vous devez ajouter des apostrophes ou des guillemets autour de `nom_utilisateur`, `nom_org` et `nom_espace`, si cette valeur contient un espace. Par exemple, `-o "my org"`.
+  **Remarque **: vous devez ajouter des apostrophes ou des guillemets autour de `username`, `org_name` et `space_name`, si cette valeur contient un espace. Par exemple, `-o "my org"`.
 
   5. A partir de <var class="keyword varname">votre_nouveau_répertoire</var>, redéployez votre application dans {{site.data.keyword.Bluemix_notm}} à l'aide de la commande `bluemix app push`. Pour plus d'informations sur la commande `bx app push`, voir [Téléchargement de votre application](/docs/starters/upload_app.html).
 
