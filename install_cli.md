@@ -48,6 +48,8 @@ After you install the command line interface, you can get started:
   1. {: download} Download the code for your app to a new directory to set up your development environment.
   
     <a class="xref" href="http://bluemix.net" target="_blank" title="(Opens in a new tab or window)"><img class="image" src="images/btn_starter-code.svg" alt="Download application code" /> </a>
+    
+      **Note**: Bump the node version to `8.9.x` or the latest in the `package.json` file before proceeding.
 
   2. Change to the directory where your code is located.
 
