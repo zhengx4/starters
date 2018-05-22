@@ -8,7 +8,6 @@ copyright:
 
 lastupdated: "2017-06-31"
 
-
 ---
 
 {:new_window: target="_blank"}
@@ -34,7 +33,7 @@ lastupdated: "2017-06-31"
 Use {{site.data.keyword.Bluemix_notm}} command line interface to download, modify, and redeploy your Cloud Foundry applications and service instances.
 {:shortdesc}
 
-Before you begin, download and install the {{site.data.keyword.Bluemix_notm}} command line interface. 
+Before you begin, download and install the {{site.data.keyword.Bluemix_notm}} command line interface.
 
 <p>
 <a class="xref" href="https://clis.ng.bluemix.net" target="_blank" title="(Opens in a new tab or window)"><img class="image" src="images/btn_bx_commandline.svg" alt="Download Bluemix command line interface" /> </a>
@@ -46,9 +45,9 @@ Before you begin, download and install the {{site.data.keyword.Bluemix_notm}} co
 After you install the command line interface, you can get started:
 
   1. {: download} Download the code for your app to a new directory to set up your development environment.
-  
+
     <a class="xref" href="http://bluemix.net" target="_blank" title="(Opens in a new tab or window)"><img class="image" src="images/btn_starter-code.svg" alt="Download application code" /> </a>
-    
+
       **Note**: Bump the node version to `8.9.x` or the latest in the `package.json` file before proceeding.
 
   2. Change to the directory where your code is located.
@@ -72,7 +71,7 @@ After you install the command line interface, you can get started:
   If you are using a federated ID, use the `-sso` option.
 
   <pre class="pre"><code class="hljs">bluemix login  -o <var class="keyword varname" data-hd-keyref="org_name">org_name</var> -s <var class="keyword varname" data-hd-keyref="space_name">space_name</var> -sso</code></pre>
-  
+
   **Note**: You must add single or double quotes around `username`, `org_name`, and  `space_name` if the value contains a space, for example, `-o "my org"`.
 
   5. From <var class="keyword varname">your_new_directory</var>, redeploy your app to {{site.data.keyword.Bluemix_notm}} by using the `bluemix app push` command. For more information about the `bx app push` command, see [Uploading your application](/docs/starters/upload_app.html).
