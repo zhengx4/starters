@@ -6,7 +6,7 @@ copyright:
 
   years: 2015，2017
 
-lastupdated: "2017-06-31"
+lastupdated: "2018-05-24"
 
 ---
 
@@ -33,11 +33,8 @@ lastupdated: "2017-06-31"
 Use {{site.data.keyword.Bluemix_notm}} command line interface to download, modify, and redeploy your Cloud Foundry applications and service instances.
 {:shortdesc}
 
-Before you begin, download and install the {{site.data.keyword.Bluemix_notm}} command line interface.
+Before you begin, download and install the {{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli/reference/bluemix_cli/download_cli.html#download_install{: new_window} ![External link icon](../../../icons/launch-glyph.svg)
 
-<p>
-<a class="xref" href="https://clis.ng.bluemix.net" target="_blank" title="(Opens in a new tab or window)"><img class="image" src="images/btn_bx_commandline.svg" alt="Download Bluemix command line interface" /> </a>
-</p>
 
 **Restriction:** The command line tool is not supported by Cygwin. Use the tool in a command line window other than the Cygwin command line window.
 {:prereq}
