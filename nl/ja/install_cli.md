@@ -6,8 +6,7 @@ copyright:
 
   years: 2015，2017
 
-lastupdated: "2017-06-31"
-
+lastupdated: "2018-05-24"
 
 ---
 
@@ -34,11 +33,8 @@ lastupdated: "2017-06-31"
 {{site.data.keyword.Bluemix_notm}} コマンド・ライン・インターフェースを使用して、Cloud Foundry アプリケーションとサービス・インスタンスをダウンロード、変更、および再デプロイします。
 {:shortdesc}
 
-開始する前に、{{site.data.keyword.Bluemix_notm}} コマンド・ライン・インターフェースをダウンロードしてインストールします。 
+開始する前に、{{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli/index.html#overview){: new_window} ![外部リンク・アイコン](../../../icons/launch-glyph.svg) をダウンロードしてインストールします。
 
-<p>
-<a class="xref" href="https://clis.ng.bluemix.net" target="_blank" title="(新規タブまたはウィンドウで開きます)"><img class="image" src="images/btn_bx_commandline.svg" alt="Bluemix コマンド・ライン・インターフェースのダウンロード" /> </a>
-</p>
 
 **制約事項:** コマンド・ライン・ツールは Cygwin ではサポートされていません。 このツールは Cygwin コマンド・ライン・ウィンドウ以外のコマンド・ライン・ウィンドウで使用してください。
 {:prereq}
@@ -46,8 +42,10 @@ lastupdated: "2017-06-31"
 コマンド・ライン・インターフェースをインストールした後、以下の手順を開始できます。
 
   1. {: download} 開発環境をセットアップするため、アプリのコードを新規ディレクトリーにダウンロードします。
-  
+
     <a class="xref" href="http://bluemix.net" target="_blank" title="(新規タブまたはウィンドウで開きます)"><img class="image" src="images/btn_starter-code.svg" alt="アプリケーション・コードのダウンロード" /> </a>
+
+      **注:** 処理を進める前に、ノードのバージョンを `8.9.x` または `package.json` ファイル内の最新のものに上げてください。
 
   2. コードが置かれているディレクトリーに移動します。
 
@@ -70,7 +68,7 @@ lastupdated: "2017-06-31"
   フェデレーテッド ID を使用する場合は、`-sso` オプションを使用してください。
 
   <pre class="pre"><code class="hljs">bluemix login  -o <var class="keyword varname" data-hd-keyref="org_name">org_name</var> -s <var class="keyword varname" data-hd-keyref="space_name">space_name</var> -sso</code></pre>
-  
+
   **注**: `username`、`org_name`、および `space_name` の値にスペースが含まれている場合は、値のまわりに単一引用符または二重引用符を追加する必要があります。例えば、`-o "my org"` のように指定します。
 
   5. `bluemix app push` コマンドを使用して、<var class="keyword varname">your_new_directory</var> からアプリを {{site.data.keyword.Bluemix_notm}} に再デプロイします。 `bx app push` コマンドについて詳しくは、『[アプリケーションのアップロード](/docs/starters/upload_app.html)』を参照してください。
@@ -78,3 +76,4 @@ lastupdated: "2017-06-31"
   <pre class="pre"><code class="hljs">bluemix app push <var class="keyword varname" data-hd-keyref="app_name">app_name</var></code></pre>
 
   6. https://<var class="keyword varname" data-hd-keyref="app_url">app_url</var>.<span class="keyword" data-hd-keyref="APPDomain">AppDomainName</span> を表示してアプリにアクセスします。
+
