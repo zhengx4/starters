@@ -6,8 +6,7 @@ copyright:
 
   years: 2015，2017
 
-lastupdated: "2017-06-31"
-
+lastupdated: "2018-05-24"
 
 ---
 
@@ -34,11 +33,8 @@ lastupdated: "2017-06-31"
 Utilizza l'interfaccia riga di comando {{site.data.keyword.Bluemix_notm}} per scaricare, modificare e ridistribuire le tue istanze del servizio e applicazioni Cloud Foundry.
 {:shortdesc}
 
-Prima di iniziare, scarica e installa l'interfaccia di riga di comando {{site.data.keyword.Bluemix_notm}}. 
+Prima di iniziare, scarica e installa la [CLI](/docs/cli/index.html#overview){: new_window} ![Icona link esterno](../../../icons/launch-glyph.svg) {{site.data.keyword.Bluemix_notm}}
 
-<p>
-<a class="xref" href="https://clis.ng.bluemix.net" target="_blank" title="(Si apre in una nuova scheda o finestra)"><img class="image" src="images/btn_bx_commandline.svg" alt="Scarica l'interfaccia riga di comando Bluemix" /> </a>
-</p>
 
 **Limitazione:** lo strumento della riga di comando non è supportato da Cygwin. Utilizzalo in una finestra della riga di comando diversa da quella di Cygwin.
 {:prereq}
@@ -46,8 +42,10 @@ Prima di iniziare, scarica e installa l'interfaccia di riga di comando {{site.da
 Dopo aver installato l'interfaccia riga di comando, puoi iniziare:
 
   1. {: download} Scarica il codice per la tua applicazione in una nuova directory per configurare il tuo ambiente di sviluppo.
-  
+
     <a class="xref" href="http://bluemix.net" target="_blank" title="(si apre in una nuova scheda o finestra)"><img class="image" src="images/btn_starter-code.svg" alt="Scarica il codice dell'applicazione" /> </a>
+
+      **Nota**: prima di procedere, aggiorna la versione del nodo a `8.9.x` o a quella più recente nel file `package.json`.
 
   2. Passa alla directory in cui si trova il codice.
 
@@ -70,7 +68,7 @@ Dopo aver installato l'interfaccia riga di comando, puoi iniziare:
   Se stai utilizzando un ID federato, usa l'opzione `-sso`.
 
   <pre class="pre"><code class="hljs">bluemix login  -o <var class="keyword varname" data-hd-keyref="org_name">org_name</var> -s <var class="keyword varname" data-hd-keyref="space_name">space_name</var> -sso</code></pre>
-  
+
   **Nota**: devi aggiungere singoli o doppi apostrofi intorno a `nomeutente`, `nome_org` e  `nome_spazio` se il valore contiene uno spazio, ad esempio, `-o "my org"`.
 
   5. Da <var class="keyword varname">la_tua_nuova_directory</var>, ridistribuisci la tua applicazione a {{site.data.keyword.Bluemix_notm}} utilizzando il comando `bluemix app push`. Per ulteriori informazioni sul comando `bx app push`, vedi [Caricamento della tua applicazione](/docs/starters/upload_app.html).
@@ -78,3 +76,4 @@ Dopo aver installato l'interfaccia riga di comando, puoi iniziare:
   <pre class="pre"><code class="hljs">bluemix app push <var class="keyword varname" data-hd-keyref="app_name">nome_app</var></code></pre>
 
   6. Accedi alla tua applicazione andando all'indirizzo https://<var class="keyword varname" data-hd-keyref="app_url">url_app</var>.<span class="keyword" data-hd-keyref="APPDomain">AppDomainName</span>.
+
