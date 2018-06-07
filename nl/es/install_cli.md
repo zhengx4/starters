@@ -6,8 +6,7 @@ copyright:
 
   years: 2015，2017
 
-lastupdated: "2017-06-31"
-
+lastupdated: "2018-05-24"
 
 ---
 
@@ -34,11 +33,8 @@ lastupdated: "2017-06-31"
 Utilice la interfaz de línea de mandatos de {{site.data.keyword.Bluemix_notm}} para descargar, modificar y volver a desplegar aplicaciones e instancias de servicio de Cloud Foundry.
 {:shortdesc}
 
-Antes de empezar, descargue e instale la interfaz de línea de mandatos de {{site.data.keyword.Bluemix_notm}}. 
+Antes de empezar, descargue e instale la [CLI](/docs/cli/index.html#overview){: new_window} de {{site.data.keyword.Bluemix_notm}} ![Icono de enlace externo](../../../icons/launch-glyph.svg)
 
-<p>
-<a class="xref" href="https://clis.ng.bluemix.net" target="_blank" title="(Se abre en una nueva ventana o separador)"><img class="image" src="images/btn_bx_commandline.svg" alt="Descargar interfaz de línea de mandatos de Bluemix" /> </a>
-</p>
 
 **Restricción:** La herramienta de línea de mandatos no se admite en Cygwin. Utilice la herramienta en una ventana de línea de mandatos que no sea la ventana de Cygwin.
 {:prereq}
@@ -46,8 +42,10 @@ Antes de empezar, descargue e instale la interfaz de línea de mandatos de {{sit
 Tras instalar la interfaz de línea de mandatos, ya puede empezar:
 
   1. {: download} Descargue el código de la app en un directorio nuevo para configurar su entorno de desarrollo.
-  
+
     <a class="xref" href="http://bluemix.net" target="_blank" title="(Se abre en un nuevo separador o ventana)"><img class="image" src="images/btn_starter-code.svg" alt="Descargar código de aplicación" /> </a>
+
+      **Nota**: Aumente la versión del nodo a `8.9.x` o a la más reciente en el archivo `package.json` antes de continuar.
 
   2. Cambie al directorio donde se encuentra el código.
 
@@ -73,7 +71,7 @@ asignación de memoria, el número de instancias y otros parámetros cruciales. 
   Si está utilizando un ID federado, utilice la opción `-sso`.
 
   <pre class="pre"><code class="hljs">bluemix login  -o <var class="keyword varname" data-hd-keyref="org_name">nombre_organización</var> -s <var class="keyword varname" data-hd-keyref="space_name">nombre_espacio</var> -sso</code></pre>
-  
+
   **Nota**: Debe añadir comillas simples o dobles alrededor de `nombre de usuario`, `nombre_org` y `nombre_espacio` si el valor contiene un espacio, por ejemplo, `-o "my org"`.
 
   5. Desde <var class="keyword varname">nuevo_directorio</var>, vuelva a desplegar la app en {{site.data.keyword.Bluemix_notm}} mediante el mandato `bluemix app push`. Para obtener más información sobre el mandato `bx app push`, consulte [Carga de una aplicación](/docs/starters/upload_app.html).
@@ -81,3 +79,4 @@ asignación de memoria, el número de instancias y otros parámetros cruciales. 
   <pre class="pre"><code class="hljs">bluemix app push <var class="keyword varname" data-hd-keyref="app_name">nombre_app</var></code></pre>
 
   6. Acceda a su app navegando a https://<var class="keyword varname" data-hd-keyref="app_url">url_app</var>.<span class="keyword" data-hd-keyref="APPDomain">NombreDominioApp</span>.
+
