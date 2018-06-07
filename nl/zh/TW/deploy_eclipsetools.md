@@ -26,7 +26,7 @@ lastupdated: "2017-01-12"
 
    [![拖放到執行中的 Eclipse Neon 工作區以安裝 IBM Eclipse Tools for {{site.data.keyword.Bluemix_notm}}](images/installbutton.png)](http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1774120)
 
-  3. {: download} 下載入門範本程式碼，並移至 **File > Import Existing Projects into Workspace > Archive File**，將它匯入到 Eclipse 中。
+  3. {: download}下載入門範本程式碼，並移至 **File > Import Existing Projects into Workspace > Archive File**，將它匯入到 Eclipse 中。
 
     <a class="xref" href="http://bluemix.net" target="_blank" title="（在新分頁或視窗中開啟）"><img class="image" src="images/btn_starter-code.svg" alt="下載入門範本程式碼" /> </a>
   

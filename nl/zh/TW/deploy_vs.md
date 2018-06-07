@@ -19,7 +19,7 @@ lastupdated: "2016-06-25"
 
   1. 如果您還沒有 Visual Studio，請遵循[這裡 ![外部鏈結圖示](../icons/launch-glyph.svg)](https://msdn.microsoft.com/en-us/library/e2h7fzkw.aspx){: new_window} 提供的指示來安裝 Visual Studio 2015 或 Visual Studio Code。
 
-  1. {: download} 下載入門範本程式碼，並將它解壓縮到硬碟上的資料夾。
+  1. {: download}下載入門範本程式碼，並將它解壓縮到硬碟上的資料夾。
 
   1. 在 Visual Studio 中開啟專案
 
