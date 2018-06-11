@@ -6,8 +6,7 @@ copyright:
 
   years: 2015，2017
 
-lastupdated: "2017-06-31"
-
+lastupdated: "2018-05-24"
 
 ---
 
@@ -34,11 +33,8 @@ lastupdated: "2017-06-31"
 Utilisez l'interface de ligne de commande {{site.data.keyword.Bluemix_notm}} pour télécharger, modifier et redéployer vos applications et instances de service Cloud Foundry.
 {:shortdesc}
 
-Avant de commencer, téléchargez et installez l'interface de ligne de commande {{site.data.keyword.Bluemix_notm}}. 
+Avant de commencer, téléchargez et installez l'[interface de ligne de commande](/docs/cli/index.html#overview){: new_window} ![External link icon](../../../icons/launch-glyph.svg) {{site.data.keyword.Bluemix_notm}}
 
-<p>
-<a class="xref" href="https://clis.ng.bluemix.net" target="_blank" title="(Ouverture dans un nouvel onglet ou une nouvelle fenêtre)"><img class="image" src="images/btn_bx_commandline.svg" alt="Télécharger l'interface de ligne de commande Bluemix" /> </a>
-</p>
 
 **Restriction :** l'outil de ligne de commande n'est pas pris en charge par Cygwin. Utilisez-le dans une fenêtre de ligne de commande autre que Cygwin.
 {:prereq}
@@ -46,8 +42,10 @@ Avant de commencer, téléchargez et installez l'interface de ligne de commande 
 Une fois l'interface de ligne de commande installée, vous pouvez commencer :
 
   1. {: download} Téléchargez le code de votre application dans un nouveau répertoire afin de configurer votre environnement de développement.
-  
+
     <a class="xref" href="http://bluemix.net" target="_blank" title="(Ouverture dans un nouvel onglet ou une nouvelle fenêtre)"><img class="image" src="images/btn_starter-code.svg" alt="Télécharger le code de l'application" /> </a>
+
+      **Remarque **: élevez la version de noeud à `8.9.x` (ou la version plus récente) dans le fichier `package.json` avant de continuer.
 
   2. Placez-vous dans le répertoire dans lequel se trouve votre code.
 
@@ -72,7 +70,7 @@ documentation Cloud Foundry.
   Si vous vous servez d'un ID fédéré, utilisez l'option `-sso`.
 
   <pre class="pre"><code class="hljs">bluemix login  -o <var class="keyword varname" data-hd-keyref="org_name">org_name</var> -s <var class="keyword varname" data-hd-keyref="space_name">space_name</var> -sso</code></pre>
-  
+
   **Remarque **: vous devez ajouter des apostrophes ou des guillemets autour de `username`, `org_name` et `space_name`, si cette valeur contient un espace. Par exemple, `-o "my org"`.
 
   5. A partir de <var class="keyword varname">votre_nouveau_répertoire</var>, redéployez votre application dans {{site.data.keyword.Bluemix_notm}} à l'aide de la commande `bluemix app push`. Pour plus d'informations sur la commande `bx app push`, voir [Téléchargement de votre application](/docs/starters/upload_app.html).
@@ -80,3 +78,4 @@ documentation Cloud Foundry.
   <pre class="pre"><code class="hljs">bluemix app push <var class="keyword varname" data-hd-keyref="app_name">nom_app</var></code></pre>
 
   6. Accédez à votre application via https://<var class="keyword varname" data-hd-keyref="app_url">url_app</var>.<span class="keyword" data-hd-keyref="APPDomain">nom_domaine_app</span>.
+
