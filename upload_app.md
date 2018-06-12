@@ -54,4 +54,4 @@ When a **bluemix app push** command is issued, the command line interface provid
 
   2. If you change your application, you can upload those changes by entering the `bluemix app push` command again. The command uses your previous options and your responses to the prompts to update any running instances of your application with the new bits of code.
 
-{{site.data.keyword.Bluemix}} CLI bundled a cf cli in its installation. `bluemix app push` command acutually invokes `cf push` to upload and deploy your application to {{site.data.keyword.Bluemix_notm}}. See [cf commands](/docs/cli/reference/cfcommands/index.html) for more information about cf push. See [Using community buildpacks](/docs/cfapps/byob.html) for information about buildpacks.
+{{site.data.keyword.Bluemix}} CLI bundled a cf cli in its installation. `bluemix app push` command acutually invokes `cf push` to upload and deploy your application to {{site.data.keyword.Bluemix_notm}}. See [cf commands](/docs/cli/reference/cfcommands/index.html) for more information about cf push. 
