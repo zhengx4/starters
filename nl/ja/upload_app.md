@@ -54,4 +54,4 @@ lastupdated: "2017-04-19"
 
   2. アプリケーションを変更した場合、`bluemix app push` コマンドを再度入力することで、それらの変更をアップロードすることができます。 このコマンドでは、ユーザーの前回のオプションとプロンプトに対する応答を使用して、アプリケーションの実行中のインスタンスを新規コードで更新します。
 
-{{site.data.keyword.Bluemix}} CLI では、cf cli はインストール済み環境にバンドルされていました。 `bluemix app push` コマンドは実際には、`cf push` を呼び出して、アプリケーションを {{site.data.keyword.Bluemix_notm}} にアップロードしてデプロイします。 cf push について詳しくは、『[cf コマンド](/docs/cli/reference/cfcommands/index.html)』を参照してください。 ビルドパックについては、『[コミュニティー・ビルドパックの使用](/docs/cfapps/byob.html)』を参照してください。
+{{site.data.keyword.Bluemix}} CLI では、cf cli はインストール済み環境にバンドルされていました。 `bluemix app push` コマンドは実際には、`cf push` を呼び出して、アプリケーションを {{site.data.keyword.Bluemix_notm}} にアップロードしてデプロイします。 cf push について詳しくは、『[cf コマンド](/docs/cli/reference/cfcommands/index.html)』を参照してください。  
