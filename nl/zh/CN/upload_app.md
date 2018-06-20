@@ -55,4 +55,4 @@ lastupdated: "2017-04-19"
 
   2. 如果更改了应用程序，可以通过再次输入 `bluemix app push` 命令来上传这些更改。该命令会使用您先前的选项并根据您对提示的响应，以新的代码段来更新任何运行中应用程序实例。
 
-{{site.data.keyword.Bluemix}} CLI 在其安装包中捆绑了 cf CLI。`bluemix app push` 命令实际上会调用 `cf push` 以将应用程序上传并部署到 {{site.data.keyword.Bluemix_notm}}。有关 cf push 的更多信息，请参阅 [cf 命令](/docs/cli/reference/cfcommands/index.html)。有关 buildpack 的信息，请参阅[使用社区 buildpack](/docs/cfapps/byob.html)。
+{{site.data.keyword.Bluemix}} CLI 在其安装包中捆绑了 cf CLI。`bluemix app push` 命令实际上会调用 `cf push` 以将应用程序上传并部署到 {{site.data.keyword.Bluemix_notm}}。有关 cf push 的更多信息，请参阅 [cf 命令](/docs/cli/reference/cfcommands/index.html)。 

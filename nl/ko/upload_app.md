@@ -54,4 +54,4 @@ lastupdated: "2017-04-19"
 
   2. 애플리케이션을 변경하는 경우 `bluemix app push` 명령을 다시 입력하여 해당 변경사항을 업로드할 수 있습니다. 명령은 이전 옵션 및 프롬프트에 대한 사용자 응답을 사용하여 새 코드 비트로 애플리케이션의 실행 중인 인스턴스를 업데이트합니다.
 
-{{site.data.keyword.Bluemix}} CLI가 해당 설치에서 cf cli를 번들화했습니다. `bluemix app push` 명령은 실제로 `cf push`를 호출하여 애플리케이션을 {{site.data.keyword.Bluemix_notm}}에 업로드하고 배치합니다. cf push에 대한 자세한 정보는 [cf 명령](/docs/cli/reference/cfcommands/index.html)을 참조하십시오. 빌드팩에 대한 정보는 [커뮤니티 빌드팩 사용](/docs/cfapps/byob.html)을 참조하십시오.
+{{site.data.keyword.Bluemix}} CLI가 해당 설치에서 cf cli를 번들화했습니다. `bluemix app push` 명령은 실제로 `cf push`를 호출하여 애플리케이션을 {{site.data.keyword.Bluemix_notm}}에 업로드하고 배치합니다. cf push에 대한 자세한 정보는 [cf 명령](/docs/cli/reference/cfcommands/index.html)을 참조하십시오. 

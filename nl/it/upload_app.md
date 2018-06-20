@@ -56,4 +56,4 @@ esempio:
 
   2. Se modifichi la tua applicazione, puoi caricare tali modifiche immettendo nuovamente il comando `bluemix app push`. Il comando utilizza le tue opzioni precedenti e le tue risposte ai prompt per aggiornare con i nuovi bit di codice le eventuali istanze dell'applicazione in esecuzione.
 
-La CLI {{site.data.keyword.Bluemix}} ha incluso una cli cf nella sua installazione. Il comando `bluemix app push` richiama effettivamente `cf push` per caricare e distribuire la tua applicazione in {{site.data.keyword.Bluemix_notm}}. Per ulteriori informazioni su cf push, vedi [Comandi cf](/docs/cli/reference/cfcommands/index.html). Per informazioni sui pacchetti di build, vedi [Utilizzo dei pacchetti di build della community](/docs/cfapps/byob.html).
+La CLI {{site.data.keyword.Bluemix}} ha incluso una cli cf nella sua installazione. Il comando `bluemix app push` richiama effettivamente `cf push` per caricare e distribuire la tua applicazione in {{site.data.keyword.Bluemix_notm}}. Per ulteriori informazioni su cf push, vedi [Comandi cf](/docs/cli/reference/cfcommands/index.html). 
