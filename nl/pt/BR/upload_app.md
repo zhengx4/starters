@@ -57,4 +57,4 @@ de que você tenha apenas os arquivos necessários em seu diretório de aplicati
 
   2. Se você mudar seu aplicativo, será possível fazer upload dessas mudanças inserindo o comando `bluemix app push` novamente. O comando usa suas opções anteriores e suas respostas aos prompts para atualizar quaisquer instâncias em execução de seu aplicativo com novos bits de código.
 
-A CLI do {{site.data.keyword.Bluemix}} empacotou um cf cli em sua instalação. O comando `bluemix app push` chama, na realidade, `cf push` para fazer upload e implementar seu aplicativo no {{site.data.keyword.Bluemix_notm}}. Consulte [Comandos cf](/docs/cli/reference/cfcommands/index.html) para obter mais informações sobre cf push. Veja [Usando buildpacks de comunidade](/docs/cfapps/byob.html) para obter informações sobre buildpacks.
+A CLI do {{site.data.keyword.Bluemix}} empacotou um cf cli em sua instalação. O comando `bluemix app push` chama, na realidade, `cf push` para fazer upload e implementar seu aplicativo no {{site.data.keyword.Bluemix_notm}}. Consulte [Comandos cf](/docs/cli/reference/cfcommands/index.html) para obter mais informações sobre cf push. 
