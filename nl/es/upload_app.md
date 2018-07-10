@@ -29,7 +29,7 @@ Antes de empezar, debe:
 
   <pre class="pre"><code class="hljs">bluemix api https://api.<span class="keyword" data-hd-keyref="DomainName">NombreDominio</span></code></pre>
 
-  3. Inicie una sesión en {{site.data.keyword.Bluemix_notm}}.
+  3. Iniciar sesión en {{site.data.keyword.Bluemix_notm}}.
 
   <pre class="pre"><code class="hljs">bluemix login -u <var class="keyword varname" data-hd-keyref="user_ID">nombre_usuario</var> -o <var class="keyword varname" data-hd-keyref="org_name">nombre_organización</var> -s <var class="keyword varname" data-hd-keyref="space_name">nombre_espacio</var></code></pre>
 
