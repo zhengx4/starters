@@ -33,8 +33,7 @@ lastupdated: "2018-05-24"
 Utilizza l'interfaccia riga di comando {{site.data.keyword.Bluemix_notm}} per scaricare, modificare e ridistribuire le tue istanze del servizio e applicazioni Cloud Foundry.
 {:shortdesc}
 
-Prima di iniziare, scarica e installa la [CLI](/docs/cli/index.html#overview){: new_window} ![Icona link esterno](../../../icons/launch-glyph.svg) {{site.data.keyword.Bluemix_notm}}
-
+Prima di iniziare, scarica e installa la {{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli/index.html#overview){: new_window}  ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")
 
 **Limitazione:** lo strumento della riga di comando non è supportato da Cygwin. Utilizzalo in una finestra della riga di comando diversa da quella di Cygwin.
 {:prereq}

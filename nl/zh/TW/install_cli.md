@@ -33,8 +33,7 @@ lastupdated: "2018-05-24"
 使用 {{site.data.keyword.Bluemix_notm}} 指令行介面，以下載、修改及重新部署 Cloud Foundry 應用程式和服務實例。
 {:shortdesc}
 
-開始之前，請下載並安裝 {{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli/index.html#overview){: new_window} ![外部鏈結圖示](../../../icons/launch-glyph.svg)
-
+開始之前，請下載並安裝 {{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli/index.html#overview){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")
 
 **限制：**Cygwin 不支援指令行工具。在指令行視窗（而非 Cygwin 指令行視窗）中，使用此工具。
 {:prereq}

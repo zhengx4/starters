@@ -33,8 +33,7 @@ lastupdated: "2018-05-24"
 {{site.data.keyword.Bluemix_notm}} コマンド・ライン・インターフェースを使用して、Cloud Foundry アプリケーションとサービス・インスタンスをダウンロード、変更、および再デプロイします。
 {:shortdesc}
 
-開始する前に、{{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli/index.html#overview){: new_window} ![外部リンク・アイコン](../../../icons/launch-glyph.svg) をダウンロードしてインストールします。
-
+開始する前に、{{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli/index.html#overview){: new_window} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン") をダウンロードしてインストールします。
 
 **制約事項:** コマンド・ライン・ツールは Cygwin ではサポートされていません。 このツールは Cygwin コマンド・ライン・ウィンドウ以外のコマンド・ライン・ウィンドウで使用してください。
 {:prereq}
