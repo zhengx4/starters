@@ -33,8 +33,7 @@ lastupdated: "2018-05-24"
 使用 {{site.data.keyword.Bluemix_notm}} 命令行界面下载、修改和重新部署 Cloud Foundry 应用程序与服务实例。
 {:shortdesc}
 
-开始之前，请下载并安装 {{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli/index.html#overview){: new_window} ![外部链接图标](../../../icons/launch-glyph.svg)
-
+开始之前，请下载并安装 {{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli/index.html#overview){: new_window} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")
 
 **限制：**Cygwin 不支持命令行工具。请在非 Cygwin 的命令行窗口中使用命令行工具。
 {:prereq}

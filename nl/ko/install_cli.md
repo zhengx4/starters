@@ -33,19 +33,18 @@ lastupdated: "2018-05-24"
 {{site.data.keyword.Bluemix_notm}} 명령행 인터페이스를 사용하여 Cloud Foundry 애플리케이션 및 서비스 인스턴스를 다운로드하고 수정하고 재배치하십시오.
 {:shortdesc}
 
-시작하기 전에 {{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli/index.html#overview){: new_window} ![외부 링크 아이콘](../../../icons/launch-glyph.svg)를 다운로드하여 설치하십시오. 
-
+시작하기 전에 {{site.data.keyword.Bluemix_notm}} [CLI](/docs/cli/index.html#overview){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")를 다운로드하여 설치하십시오.
 
 **제한사항:** 명령행 도구는 Cygwin에서 지원되지 않습니다. Cygwin 명령행 창 이외의 명령행 창에서 도구를 사용하십시오.
 {:prereq}
 
 명령행 인터페이스를 설치한 후 시작할 수 있습니다.
 
-  1. {: download} 앱에 대한 코드를 새 디렉토리에 다운로드하여 개발 환경을 설정하십시오.
+  1. {: download}앱에 대한 코드를 새 디렉토리에 다운로드하여 개발 환경을 설정하십시오.
 
     <a class="xref" href="http://bluemix.net" target="_blank" title="(새 탭 또는 창에서 열림)"><img class="image" src="images/btn_starter-code.svg" alt="애플리케이션 코드 다운로드" /> </a>
 
-      **참고**: 진행하기 전에 노드 버전을 `8.9.x` 또는 `package.json` 파일의 최신 버전으로 올리십시오. 
+      **참고**: 진행하기 전에 노드 버전을 `8.9.x` 또는 `package.json` 파일의 최신 버전으로 올리십시오.
 
   2. 코드가 있는 디렉토리로 변경하십시오.
 
