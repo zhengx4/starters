@@ -33,8 +33,7 @@ lastupdated: "2018-05-24"
 Use a interface da linha de comandos do {{site.data.keyword.Bluemix_notm}} para fazer download, modificar e reimplementar os aplicativos e as instâncias de serviço do Cloud Foundry.
 {:shortdesc}
 
-Antes de iniciar, faça download e instale a [CLI](/docs/cli/index.html#overview){: new_window} do {{site.data.keyword.Bluemix_notm}} ![Ícone de link externo](../../../icons/launch-glyph.svg)
-
+Antes de iniciar, faça download e instale a [CLI](/docs/cli/index.html#overview){: new_window} do {{site.data.keyword.Bluemix_notm}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")
 
 **Restrição:** a ferramenta de linha de comandos não é suportada por Cygwin. Use a ferramenta em uma janela de linha de comandos diferente da janela de linha de comandos do Cygwin.
 {:prereq}
