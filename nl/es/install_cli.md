@@ -33,8 +33,7 @@ lastupdated: "2018-05-24"
 Utilice la interfaz de línea de mandatos de {{site.data.keyword.Bluemix_notm}} para descargar, modificar y volver a desplegar aplicaciones e instancias de servicio de Cloud Foundry.
 {:shortdesc}
 
-Antes de empezar, descargue e instale la [CLI](/docs/cli/index.html#overview){: new_window} de {{site.data.keyword.Bluemix_notm}} ![Icono de enlace externo](../../../icons/launch-glyph.svg)
-
+Antes de empezar, descargue e instale la CLI de {{site.data.keyword.Bluemix_notm}} [](/docs/cli/index.html#overview){: new_window} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")
 
 **Restricción:** La herramienta de línea de mandatos no se admite en Cygwin. Utilice la herramienta en una ventana de línea de mandatos que no sea la ventana de Cygwin.
 {:prereq}
@@ -51,7 +50,7 @@ Tras instalar la interfaz de línea de mandatos, ya puede empezar:
 
   <pre class="pre"><code class="hljs">cd <var class="keyword varname">su_nuevo_directorio</var></code></pre>
 
-  3.  Realice los cambios que considere adecuados al código de su app. Por ejemplo, si utiliza una aplicación de ejemplo de {{site.data.keyword.Bluemix}} y la app contiene el archivo `src/main/webapp/index.html`, puede modificarlo y editar "Thanks for creating ..." para que indique otra cosa. Asegúrese de que la app se ejecuta localmente
+  3.  Realice los cambios que considere adecuados al código de su app. Por ejemplo, si utiliza una aplicación de ejemplo de {{site.data.keyword.Bluemix}} y su app contiene el archivo `src/main/webapp/index.html`, puede modificarlo y editar "Thanks for creating ..." para que indique otra cosa. Asegúrese de que la app se ejecuta localmente
 antes de volver a desplegarla en {{site.data.keyword.Bluemix_notm}}.
 
     Preste atención al archivo `manifest.yml`. Cuando despliegue su app nuevamente en

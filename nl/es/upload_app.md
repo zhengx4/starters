@@ -35,7 +35,7 @@ Antes de empezar, debe:
 
 Cuando se emite un mandato **bluemix app push**, la interfaz de línea de mandatos proporciona el directorio de trabajo al entorno {{site.data.keyword.Bluemix_notm}}, que utiliza un paquete de compilación para compilar y ejecutar la aplicación.
 
-  1. En el directorio de la app, escriba el mandato **bluemix app push** con el nombre de la app. El nombre de la app debe ser exclusivo en el entorno {{site.data.keyword.Bluemix_notm}}.
+  1. En el directorio de la aplicación, escriba el mandato **bluemix app push** con el nombre de la aplicación. El nombre de la app debe ser exclusivo en el entorno {{site.data.keyword.Bluemix_notm}}.
 
   <pre class="pre"><code class="hljs">bluemix app push <var class="keyword varname" data-hd-keyref="app_name">nombre_app</var> -m 512m</code></pre>
 
@@ -49,9 +49,9 @@ Cuando se emite un mandato **bluemix app push**, la interfaz de línea de mandat
 
   <pre class="pre"><code class="hljs">bluemix app push <var class="keyword varname" data-hd-keyref="app_name">nombre_app</var> -b URL_paquete_compilación</code></pre>
 
-  **Consejo:** Cuando se utiliza el mandato **bluemix app push**, el mandato copia todos los archivos y directorios del directorio actual en Bluemix. Asegúrese de tener solo los archivos necesarios en su directorio de app.
+  **Consejo:** Cuando se utiliza el mandato **bluemix app push**, el mandato copia todos los archivos y directorios del directorio actual en Bluemix. Asegúrese de tener solo los archivos necesarios en su directorio de aplicación.
 
 
-  2. Si modifica la aplicación, puede cargar los cambios volviendo a especificar el mandato `bluemix app push`. El mandato utiliza sus opciones anteriores y las respuestas a las solicitudes para actualizar las instancias en ejecución de la app con los nuevos bits de código.
+  2. Si modifica la aplicación, puede cargar los cambios volviendo a especificar el mandato `bluemix app push`. El mandato utiliza sus opciones anteriores y las respuestas a las solicitudes para actualizar las instancias en ejecución de la aplicación con los nuevos bits de código.
 
 En su instalación, la interfaz de línea de mandatos de {{site.data.keyword.Bluemix}} se empaqueta con una interfaz de línea de mandatos cf. El mandato `bluemix app push` realmente invoca al mandato `cf push` para subir y desplegar su aplicación en {{site.data.keyword.Bluemix_notm}}. Consulte [Mandatos cf](/docs/cli/reference/cfcommands/index.html) para obtener más información sobre cf push. 
